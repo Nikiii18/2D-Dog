@@ -1,0 +1,29 @@
+body{
+  background-color:rgb(126, 141, 254);
+}
+#canvas1 {
+background-color: rgb(126, 141, 254);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+}
+
+.controls {
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.controls, select, option {
+  font-size: 25px;
+}
+
+#animations{
+  border-color: black;
+  background-color: rgba(117, 109, 255, 0.301);
+}
